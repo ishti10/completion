@@ -24,7 +24,7 @@ ARCHIVE_DATA= ../3rdparty/jsonrpc.py $(wildcard ../editor/sublime/*.py) $(wildca
 GENERATED = $(PEGS) ../editor/archive_data.go
 
 
-all: ../../parser $(PEGS) ../editor/archive_data.go completion
+all: ../../../quarnster/parser $(PEGS) ../editor/archive_data.go completion
 
 ../../parser:
 	go get github.com/quarnster/parser
@@ -42,4 +42,4 @@ test: completion
 clean:
 	$(RM) $(GENERATED) completion $(subst .go,,$(notdir $(PEGS)))
 
-include ../../parser/PegRules.make
+include ../../../quarnster/parser/PegRules.make
