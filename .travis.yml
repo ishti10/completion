@@ -8,7 +8,13 @@ install:
   - go get -d github.com/quarnster/util
   - go get -d github.com/howeyc/fsnotify
   - go get -d github.com/robmerrell/comandante
-  - cd build
+  - cd ../../quarnster/completion/build
+  - pwd
+  - ls
+  - ls ..
+  - ls ../../
+  - ls ../../../
+  - ls ../../../../
 
 script:
   - make
