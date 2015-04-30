@@ -14,6 +14,7 @@ install:
   - ls ../../
   - ls ../../../
   - ls ../../quarnster/
+  - ls ../../quarnster/
   - cd ../../quarnster/completion/build
 
 script:
