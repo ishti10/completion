@@ -9,15 +9,12 @@ install:
   - go get -d github.com/howeyc/fsnotify
   - go get -d github.com/robmerrell/comandante
   - pwd
-  - mv completion ../../quarnster/
-  - ls ../../quarnster/
-  - cd ../../quarnster/completion/
+  - cd ..
+  - mv completion ../quarnster/
+  - ls ../quarnster/
+  - cd ../quarnster/completion/
   - ls
   - ls ..
-  - ls ../../
-  - ls ../../../
-  - ls ../../quarnster/
-  - ls ../../quarnster/
   - cd build
 
 script:
